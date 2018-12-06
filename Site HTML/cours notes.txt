@@ -1,0 +1,38 @@
+1-Les éléments en HTML
+
+
+Le langage HTML est enfait un langage qui se base sur une base de données. Il faut définir ce qu'est un élément pour comprendre le HTML.
+
+Chaque élément que nous utiliserons en HTML servira a structurer notre contenu, nos données, pour leurs donner un sens. Selon l’élément utilisé, le navigateur va reconnaître le contenu comme étant de telle ou telle nature.
+
+Ainsi, on va utiliser des éléments pour définir un paragraphe ou un titre par exemple, ou encore pour insérer une image ou une vidéo dans un document. L’élément p, par exemple sert à définir un paragraphe.
+
+2- Les balises en HTML
+
+
+Un élément HTML peut être soit constitué d’une paire de balises et d’un contenu, soit (plus rarement) d’une balise unique qu’on dit alors orpheline.
+
+L’élément p ci-dessous est constitué d’une balise ouvrante, d’un balise fermante (notez la présence du slash), et d'un contenu (textuel) entre les balises.
+
+L’élément br ci-dessous (servant à créer un retour à la ligne) n’est lui constitué que d’une balise orpheline.
+
+Sur le web, vous trouverez peut être des éléments br écrits avec un slash après le nom de l’élément, comme ceci : <br/>. Les deux syntaxes sont acceptées en HTML, la seule différence est que la syntaxe utilisant le slash est également reconnue par le langage XML. Dans ce cours, j'utiliserai par simplicité la syntaxe sans le slash
+
+3- Les attributs en HTML
+
+
+Finalement, la balise ouvrante d’un élément HTML peut contenir des attributs, qui sont parfois même obligatoires.
+
+Les attributs vont venir compléter les éléments en les définissant plus précisément ou en leur apportant des informations supplémentaires.
+
+Un attribut contient toujours une valeur, qu’on peut cependant parfois omettre dans le cas des attributs ne possédant qu’une seule valeur (la valeur est considérée comme évidente).
+
+Par exemple, l’élément a (pour "anchor") servant à créer des liens vers d’autres sites ou d’autres pages, va avoir besoin d’un attribut href ("hypertexte reference") qui va prendre comme valeur l'adresse (relative ou absolue) de la page vers laquelle on souhaite faire un lien.
+
+L’élément img, servant à insérer une image dans une page HTML, va lui demander deux attributs : src et alt.
+
+L'attribut src va prendre comme valeur le nom et l’emplacement de l’image tandis que l'attribut alt va afficher un texte alternatif dans le cas où l’image ne serait pas disponible (pour les non voyants par exemple).
+
+Notez que cet élément n'est constitué que d'une seule balise orpheline, tout comme l'élément br.
+
+Notez bien que les balises et les attributs ne seront jamais affichés par le navigateur : ils vont servir à indiquer au navigateur comment il doit traiter chaque contenu. Bien construire sa page web sera aussi hautement bénéfique pour votre référencement dans les moteurs de recherche.
